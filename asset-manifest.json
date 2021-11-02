@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/fahadkhanpakistan/quiz_app.git/static/css/main.3f63cd97.chunk.css",
-    "main.js": "/fahadkhanpakistan/quiz_app.git/static/js/main.8b52f964.chunk.js",
-    "main.js.map": "/fahadkhanpakistan/quiz_app.git/static/js/main.8b52f964.chunk.js.map",
-    "runtime-main.js": "/fahadkhanpakistan/quiz_app.git/static/js/runtime-main.a1426cab.js",
-    "runtime-main.js.map": "/fahadkhanpakistan/quiz_app.git/static/js/runtime-main.a1426cab.js.map",
-    "static/css/2.8e161400.chunk.css": "/fahadkhanpakistan/quiz_app.git/static/css/2.8e161400.chunk.css",
-    "static/js/2.36dba511.chunk.js": "/fahadkhanpakistan/quiz_app.git/static/js/2.36dba511.chunk.js",
-    "static/js/2.36dba511.chunk.js.map": "/fahadkhanpakistan/quiz_app.git/static/js/2.36dba511.chunk.js.map",
-    "static/js/3.56269771.chunk.js": "/fahadkhanpakistan/quiz_app.git/static/js/3.56269771.chunk.js",
-    "static/js/3.56269771.chunk.js.map": "/fahadkhanpakistan/quiz_app.git/static/js/3.56269771.chunk.js.map",
-    "index.html": "/fahadkhanpakistan/quiz_app.git/index.html",
-    "static/css/2.8e161400.chunk.css.map": "/fahadkhanpakistan/quiz_app.git/static/css/2.8e161400.chunk.css.map",
-    "static/css/main.3f63cd97.chunk.css.map": "/fahadkhanpakistan/quiz_app.git/static/css/main.3f63cd97.chunk.css.map",
-    "static/js/2.36dba511.chunk.js.LICENSE.txt": "/fahadkhanpakistan/quiz_app.git/static/js/2.36dba511.chunk.js.LICENSE.txt"
+    "main.css": "/quiz_app/static/css/main.3f63cd97.chunk.css",
+    "main.js": "/quiz_app/static/js/main.8b52f964.chunk.js",
+    "main.js.map": "/quiz_app/static/js/main.8b52f964.chunk.js.map",
+    "runtime-main.js": "/quiz_app/static/js/runtime-main.926be529.js",
+    "runtime-main.js.map": "/quiz_app/static/js/runtime-main.926be529.js.map",
+    "static/css/2.8e161400.chunk.css": "/quiz_app/static/css/2.8e161400.chunk.css",
+    "static/js/2.0efb0309.chunk.js": "/quiz_app/static/js/2.0efb0309.chunk.js",
+    "static/js/2.0efb0309.chunk.js.map": "/quiz_app/static/js/2.0efb0309.chunk.js.map",
+    "static/js/3.56269771.chunk.js": "/quiz_app/static/js/3.56269771.chunk.js",
+    "static/js/3.56269771.chunk.js.map": "/quiz_app/static/js/3.56269771.chunk.js.map",
+    "index.html": "/quiz_app/index.html",
+    "static/css/2.8e161400.chunk.css.map": "/quiz_app/static/css/2.8e161400.chunk.css.map",
+    "static/css/main.3f63cd97.chunk.css.map": "/quiz_app/static/css/main.3f63cd97.chunk.css.map",
+    "static/js/2.0efb0309.chunk.js.LICENSE.txt": "/quiz_app/static/js/2.0efb0309.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1426cab.js",
+    "static/js/runtime-main.926be529.js",
     "static/css/2.8e161400.chunk.css",
-    "static/js/2.36dba511.chunk.js",
+    "static/js/2.0efb0309.chunk.js",
     "static/css/main.3f63cd97.chunk.css",
     "static/js/main.8b52f964.chunk.js"
   ]
