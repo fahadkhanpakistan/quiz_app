@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { useLoading } from './components/QuestionsContext';
+import { LoadingOutlined } from '@ant-design/icons';
+import Question from './components/question/Question';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	let loadingStatus = useLoading();
+	// let { score, setScore } = useScore();
+
+	return (
+		<div className='app'>
+			{loadingStatus ? (
+				<div className='loading'>
+					<LoadingOutlined className='loading-icon' />
+				</div>
+			) : (
+				<div className='quiz-card'>
+					<Question />
+				</div>
+			)}
+		</div>
+	);
 }
 
 export default App;

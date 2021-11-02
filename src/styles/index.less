@@ -1,0 +1,85 @@
+// @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+//Variables
+@primaryBackground: rgb(53, 84, 112);
+@secondaryBackground: hsl(207, 47%, 26%);
+@primaryColor: #bbf48e;
+
+html,
+* {
+	scroll-behavior: smooth;
+	// font-family: 'Poppins';
+	font-family: 'Noto Sans', sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: @primaryBackground;
+}
+
+// app
+.app {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.quiz-card {
+	}
+}
+
+// loading
+.loading {
+	.loading-icon {
+		font-size: 4rem;
+		color: #ddd;
+	}
+}
+
+// Question Component
+.question-container {
+	max-width: 600px;
+	padding: 1rem;
+	border-radius: 10px;
+	background-color: @secondaryBackground;
+
+	.question-info {
+		text-align: center;
+		color: #ddd;
+	}
+	.question {
+		text-align: center;
+		color: #ddd;
+	}
+	.option-container {
+		width: 50%;
+		margin: 0 auto;
+		.option {
+			margin-top: 1rem;
+			font-size: 1rem;
+			word-wrap: wrap;
+		}
+	}
+}
+.modal-content {
+	text-align: center;
+	padding: 2rem;
+	h3 {
+		color: @primaryColor;
+	}
+	.score-rate {
+		color: #ddd;
+		font-size: 2.5rem;
+		letter-spacing: 2px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.question-container {
+		.question {
+			font-size: 1.2rem;
+		}
+		.option-container {
+			width: 300px;
+		}
+	}
+}
