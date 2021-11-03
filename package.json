@@ -2,7 +2,7 @@
 	"name": "quiz_app_techstirr",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://fahadkhanpakistan.github.io/https://github.com/fahadkhanpakistan/quiz_app.git",
+	"homepage": "https://fahadkhanpakistan.github.io/quiz_app/",
 	"dependencies": {
 		"@ant-design/icons": "^4.7.0",
 		"@craco/craco": "^6.4.0",
